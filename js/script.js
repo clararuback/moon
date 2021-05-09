@@ -1,6 +1,6 @@
 <!DOCTYPE js>
 
-<script type="text/javascript" src="js/script.js">
+
  var car = {
     make: 'VW',
     type:'Polo',
@@ -28,5 +28,4 @@
     }
 
   }
- };
-</script>
+ 
