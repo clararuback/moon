@@ -1,6 +1,11 @@
-<!DOCTYPE js>
-
-
+//this function changes class to element
+ var doCool = function () {
+   var currentClassName = document.getElementById('cool1') .className;
+   if (currentClassName == 'cool') {// this changes class name
+document.getElementById('cool1') .className = 'coolred';
+  }else {document.getElementById('cool1') .className = 'cool';
+  }
+}
  var car = {
     make: 'VW',
     type:'Polo',
@@ -17,7 +22,7 @@
     this.isTurnedOn = true;
   },
   fly: function () {
-    alert ('fly');
+    alert('FLY');
   },
   switchCar : function (isOn) {
     console.log('turn car '+ isOn);
@@ -27,5 +32,4 @@
       this.isTurnedOn = false;
     }
 
-  }
- 
+  }}
