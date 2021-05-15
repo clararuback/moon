@@ -1,2 +1,2 @@
-# rocket
+# moon
 javascript exercise
