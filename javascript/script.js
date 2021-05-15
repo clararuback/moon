@@ -33,3 +33,10 @@ document.getElementById('cool1') .className = 'coolred';
     }
 
   }}
+  var riseUp = function () {
+    var currentClassName = document.getElementById('moon') .className;
+    if (currentClassName == 'moon') {// this changes class name
+ document.getElementById('moon') .className = 'moon rising';
+}else {document.getElementById('moon') .className = 'moon';
+   }
+ }
